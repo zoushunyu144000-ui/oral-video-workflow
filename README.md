@@ -19,7 +19,7 @@
 
 ```
 请帮我安装一个开源的口播剪辑 skill：
-1. 把仓库 <仓库地址> 下载到本地（git clone 或下载 zip 均可）。
+1. 把仓库 https://github.com/zoushunyu144000-ui/oral-video-workflow 下载到本地（git clone 或下载 zip 均可）。
 2. 按你自己的 skill / 插件机制，把其中的 skills/oral-video-workflow 目录保存到本地能被你调用的位置，并告诉我保存在了哪里。
 3. 先完整阅读 SKILL.md 和 README，用三句话告诉我这个 skill 能做什么、需要哪些工具。
 4. 检查我的电脑缺哪些依赖（如 ffmpeg），列出清单，先不要安装，等我确认。
