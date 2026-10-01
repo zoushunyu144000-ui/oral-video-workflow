@@ -13,6 +13,7 @@
 - **放手让模型发挥审美**：构图、节奏、配色、素材选择由模型决定；人只做喜好判断、内容取舍、事实把关。
 - **反馈先复述**：改之前先说一遍"我理解你要的效果"，确认再动手。
 - **自我迭代**：每次审片的意见沉淀到 `references/lessons.md`，同一个坑只踩一次。
+- **项目与素材管理**：全局库（素材、样式、经验）+ 每个视频一个项目文件夹，大文件只存一份，先查库、后回写。
 - **派活给执行 Agent**：搜素材、下载、转码这类脏活，派给 Codex 等执行 Agent；有全自动、半自动、人工提示词三档。
 
 ## 安装：把下面这段发给你的 Agent
@@ -46,9 +47,11 @@ skills/oral-video-workflow/
 └─ references/
    ├─ tools.md                  工具清单与限制（含派活的三档做法）
    ├─ lessons.md                经验库（会自动增长）
+   ├─ project-management.md     项目与素材管理：全局库 + 项目文件夹 + 回写清单
    ├─ platforms.md              各平台标题 / 简介 / 封面档案模板
    ├─ task-templates.md         给执行 Agent 的任务单与通用提示词
    └─ state-template.md         WORKFLOW_STATE.md 模板
+└─ scripts/init_workspace.py    一键建库 / 建项目文件夹
 ```
 
 ## 参与
